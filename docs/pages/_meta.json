@@ -9,6 +9,26 @@
   },
   "frondEnd": {
     "title": "frondEnd",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
+  },
+  "Linux": {
+    "title": "Linux",
+    "type": "page",
+    "display": "hidden"
+  },
+  "Categories": {
+    "title": "Categories",
+    "type": "menu",
+    "items": {
+      "frondEnd": {
+        "title": "frondEnd",
+        "href": "/frondEnd"
+      },
+      "Linux": {
+        "title": "Linux",
+        "href": "/Linux"
+      }
+    }
   }
 }
