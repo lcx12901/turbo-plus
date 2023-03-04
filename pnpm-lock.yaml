@@ -33,6 +33,7 @@ importers:
       eslint-plugin-tailwindcss: 3.8.3
       eslint-plugin-typescript-sort-keys: 2.1.0
       eslint-plugin-unicorn: 45.0.2
+      husky: ^8.0.3
       postcss: ^8.4.21
       postcss-cli: ^10.1.0
       prettier: 2.8.4
@@ -59,6 +60,7 @@ importers:
       eslint-plugin-tailwindcss: registry.npmmirror.com/eslint-plugin-tailwindcss/3.8.3_tailwindcss@3.2.7
       eslint-plugin-typescript-sort-keys: registry.npmmirror.com/eslint-plugin-typescript-sort-keys/2.1.0_6cfvjsbua5ptj65675bqcn6oza
       eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn/45.0.2_eslint@8.34.0
+      husky: registry.npmmirror.com/husky/8.0.3
       postcss: registry.npmmirror.com/postcss/8.4.21
       postcss-cli: registry.npmmirror.com/postcss-cli/10.1.0_postcss@8.4.21
       prettier: registry.npmmirror.com/prettier/2.8.4
@@ -3642,6 +3644,14 @@ packages:
     name: human-signals
     version: 2.1.0
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  registry.npmmirror.com/husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/husky/-/husky-8.0.3.tgz}
+    name: husky
+    version: 8.0.3
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/iconv-lite/0.4.24:

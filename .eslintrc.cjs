@@ -54,7 +54,7 @@ module.exports = {
     },
     // Rules for React files
     {
-      files: '{packages,examples,docs}/**',
+      files: '{docs}/**',
       extends: [
         'plugin:react/recommended',
         'plugin:react/jsx-runtime',
